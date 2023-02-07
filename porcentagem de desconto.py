@@ -1,0 +1,5 @@
+pb = float(input('digite o preço'))
+porcentagem_do_desconto = int(input('digite a porcentagem'))
+pc = float((pb/100)*porcentagem_do_desconto)
+pcd = float(pb-pc)
+print('o valor R${} com {}% de desconto fica R${}'.format(pb,porcentagem_do_desconto,pcd))

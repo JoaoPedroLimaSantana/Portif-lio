@@ -1,0 +1,5 @@
+alt = float(input('digite a altura'))
+lar = float(input('digite a largura'))
+ar = float(alt*lar)
+qtt = float(ar/2)
+print('sera necessario {} litros de tinta'.format(qtt))
